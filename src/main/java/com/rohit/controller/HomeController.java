@@ -9,7 +9,11 @@ public class HomeController {
 
     @RequestMapping(value = "/home", method = RequestMethod.GET)
     public String home() {
-        System.out.println("Home Page Requested, locale = ");
         return "home";
+    }
+
+    @RequestMapping(value = "/test", method = RequestMethod.POST)
+    public String test() {
+        return "test";
     }
 }
