@@ -11,6 +11,6 @@
 	</head> 
 	<body>
 		<c:url value="/home" var="messageUrl" />
-		<a href="${messageUrl}">Click to enter</a>
+		<a href="${messageUrl}"><h1>Click to enter</h1></a>
 	</body>
 </html>
